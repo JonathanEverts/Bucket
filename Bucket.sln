@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BucketClassLibrary", "BucketClassLibrary\BucketClassLibrary.csproj", "{B76D090A-6B66-4DE2-9BA5-4346DC1F8832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{6AACB061-DC39-44C8-817B-AC95F60FF9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{D521FC4A-C010-4E66-87BA-02C419C29980}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B76D090A-6B66-4DE2-9BA5-4346DC1F8832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76D090A-6B66-4DE2-9BA5-4346DC1F8832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76D090A-6B66-4DE2-9BA5-4346DC1F8832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76D090A-6B66-4DE2-9BA5-4346DC1F8832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AACB061-DC39-44C8-817B-AC95F60FF9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AACB061-DC39-44C8-817B-AC95F60FF9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AACB061-DC39-44C8-817B-AC95F60FF9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AACB061-DC39-44C8-817B-AC95F60FF9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D521FC4A-C010-4E66-87BA-02C419C29980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D521FC4A-C010-4E66-87BA-02C419C29980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D521FC4A-C010-4E66-87BA-02C419C29980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D521FC4A-C010-4E66-87BA-02C419C29980}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
