@@ -63,43 +63,5 @@ namespace TestProject
 
             Assert.Equal(0, bucket.Content);
         }
-
-        /*[Theory]
-        [InlineData(100, 100, false)]
-        [InlineData(100, 101, true)]
-        [InlineData(2500, 2500, false)]
-        [InlineData(2500, 2501, true)]
-        public void Bucket_HasOverflowException(int capacity, int fill, bool hasException)
-        {
-            Bucket bucket = new Bucket(capacity);
-
-            if (hasException)
-            {
-                Assert.Throws<OverflowException>(() => bucket.Fill(fill));
-            }
-            else
-            {
-                var ex = Record.Exception(() => bucket.Fill(fill));
-                Assert.Null(ex);
-            }
-        }*/
-
-        /*[Theory]
-        [InlineData(5, false)]
-        [InlineData(12, false)]
-        [InlineData(13, true)]
-        public void DefaultBucket_HasOverflowException(int fill, bool hasException)
-        {
-            Bucket bucket = new Bucket();
-
-            if (hasException)
-            {
-                Assert.Throws<OverflowException>(() => bucket.Fill(fill));
-            } else
-            {
-                var ex = Record.Exception(() => bucket.Fill(fill));
-                Assert.Null(ex);
-            }
-        }*/
     }
 }

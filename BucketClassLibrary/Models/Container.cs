@@ -54,15 +54,6 @@ namespace BucketClassLibrary.Models
                     OnFull(EventArgs.Empty);
                 }
             }
-
-            /*if (Content + value > Capacity) throw new OverflowException("De container is aan het overstromen");
-            else if (Content + value < 0) throw new EmptyContainerException("De container kan niet nogmeer vloeistof verliezen");
-            else Content += value;
-            if (value > 0)
-                Console.WriteLine($"De container wordt gevuld met {value} en bedraagd nu {Content}");
-            else
-                Console.WriteLine($"De container wordt geleegd met {value} en bedraagd nu {Content}");
-*/
         }
 
         public void Empty()
